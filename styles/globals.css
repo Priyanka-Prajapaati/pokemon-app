@@ -1,14 +1,30 @@
 html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Satisfy', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+
+code {
+  font-family: 'Satisfy', cursive;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h3 {
+  margin-bottom: 0.2rem;
+  text-decoration: underline;
+}
+
+button:hover{
+  background-color: #ff0000;
+  background-image: linear-gradient(315deg, #ff0000 0%, #ffed00 74%);
 }
 
 * {
