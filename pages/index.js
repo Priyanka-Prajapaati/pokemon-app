@@ -22,7 +22,7 @@ export default function Home() {
   }
   useEffect(() => {
     getAllPokemons()
-  }, [getAllPokemons])
+  })
   return (
     <div className={styles.appContainer}>
       <h1>Pokemon Kingdom .</h1>
